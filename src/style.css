@@ -76,7 +76,7 @@ main {
 
 .torii {
   display: block;
-  max-width: 600px;
+  max-width: 100%;
   border-radius: 5px;
 }
 
