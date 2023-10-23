@@ -107,6 +107,7 @@ main p {
 }
 
 footer {
+  color: white;
   background-image: linear-gradient(
       rgba(48, 35, 38, 0.6),
       rgba(48, 35, 38, 0.6)
