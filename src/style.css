@@ -1,0 +1,74 @@
+body {
+  font-family: "Dosis", sans-serif;
+  background-color: #302326;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("../images/header-jpn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+  border-radius: 5px;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+header h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+header a {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  margin-top: 32px;
+  padding: 16px 32px;
+  border-radius: 5px;
+  display: inline-block;
+
+  background-color: white;
+  text-decoration: none;
+  color: #272044;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  header a {
+    font-size: 12px;
+  }
+}
